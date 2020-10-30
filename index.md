@@ -2,122 +2,142 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# About Me
 
-[Link to another page](./another-page.html).
+> I am third-year Computer Science (co-op) student at University of Manitoba. I love coding, teaching others how to code and Ultimate Frisbee.
 
-There should be whitespace between paragraphs.
+---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# Technical Skills
 
-# Header 1
+| **PROGRAMMING LANGUAGES**                              | **SOFTWARE AND TECHNOLOGY**                         |
+| ------------------------------------------------------ | --------------------------------------------------- |
+| _Proficient with:_ Javascript HTML, CSS, Java, SQL, C# | _Software_: Visual Studio, SSMS, Android Studio     |
+| _Familiar with:_ C, C++, Python                        | _Frameworks_: VueX, Tailwind, Dapper, SignalR       |
+|                                                        | _Other_: Command line, Git, Agile development cycle |
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# Work Experience
 
-## Header 2
+#### SYSTEMS DEVELOPER (CO-OP), _PAYWORKS INC_.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Date: Jun - Aug 2020
 
-### Header 3
+Link: [https://www.payworks.ca/](https://www.payworks.ca/)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+- Developed chat support features using VueX, SCSS, Tailwind, and Realtime ASP.NET with SignalR to provide a flexible form of communication between clients and customer service representatives
+- Built database tables and backend services using C#, SQL and Dapper
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+#### CODE SENSEI, _CODE NINJAS_
 
-#### Header 4
+Date: 2019 - Present
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+Link: [https://www.codeninjas.com/winnipeg-mb-ca](https://www.codeninjas.com/winnipeg-mb-ca)
 
-##### Header 5
+- Teach 8 to 14-year-old children how to program their own video games using Scratch
+  and Javascript
+- Troubleshoot problems with students and provide additional challenges when appropriate
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+---
 
-###### Header 6
+# Academic Projects
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+#### SLOWDRIVE - ANDROID APPLICATION, _SOFTWARE ENGINEERING 1_
 
-### There's a horizontal rule below this.
+Date: Winter 2020
 
-* * *
+Link: [https://github.com/mariellemanlulu/slow-drive/](https://github.com/mariellemanlulu/slow-drive)
 
-### Here is an unordered list:
+- A mobile app that notifies the driver via sound when they are driving over the speed limit.
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+#### LEARNING ASSISTANT ROBOT (PROTOTYPE), _HCI 2_
 
-### And an ordered list:
+Date: Winter 2020
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+- A robot prototype that helps university students study with the use of (physical) flashcards and avoiding distractions, i.e. limiting phone use. This project focuses on the user’s social interaction with the robot.
 
-### And a nested list:
+#### ELECTRONIC COURSE REGISTRATION SYSTEM, _HCI 1_
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+Date: Fall 2019
 
-### Small image
+Link: [https://github.com/mariellemanlulu/course-reg-system](https://github.com/mariellemanlulu/course-reg-system)
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+- A web application that focuses on design interface. This project focuses on evaluating the design of the interface to ensure user satisfaction.
 
-### Large image
+---
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+# Extracurricular Activities
 
+#### OUTREACH COORDINATOR - _WICS_
 
-### Definition lists can be used with HTML syntax.
+Date: May 2020 - Present
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+Link: [https://umwics.vercel.app/](https://umwics.vercel.app/)
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+> A UofM student group that promotes gender diversity within the computer science field. As the outreach coordinator, I organize workshops that encourage young students to get involved in computer science.
 
-```
-The final element.
-```
+#### CUSEC 2020 MONTREAL
+
+Date: Jan. 2020
+
+Link: [https://2020.cusec.net/#/](https://2020.cusec.net/#/
+
+> A 3-day software engineering conference where university students across Canada network, attend workshops, hear inspiring talks and gain exposure to the Canadian tech community.
+
+#### PROGRAMMING EVENTS
+
+- CSSA Game Jam (2019)
+- Google Tech Challenge (2019)
+- Local Hack Day (2018)
+- UofM Annual Programming Contest (2018)
+
+#### ULTIMATE FRISBEE
+
+Date: 2013 - Present
+
+> Play year-round in recreational and competitive ultimate leagues. Attend practices, play in tournaments with the provincial women’s team, and captained a recreational summer league team.
+
+---
+
+# Volunteer Experience
+
+#### ORIENTATION VOLUNTEER, _UM STUDENT LIFE_
+
+Date: 2019
+
+- Offered tips in a presentation to guide over 200 first-year students to a successful year
+- Directed approx. 10 students on a campus tour showing buildings, classrooms,
+  important offices and services
+
+#### EVENT VOLUNTEER, _SCIENCE RENDEZVOUS_
+
+Date: 2018 - 2019
+
+- Communicated with team members when distributing food to over 200 volunteers
+- Supervised two booths ensuring volunteers were aware of their responsibilities to provide engaging activities to students
+
+#### TEACHERCON MENTOR, _CANADA LEARNING CODE_
+
+Date: 2018
+
+Link: [https://www.canadalearningcode.ca/teachercon/](https://www.canadalearningcode.ca/teachercon/)
+
+- Assisted educators through their process of learning basic HTML, CSS and Python
+- Welcomed K-12 level educators by providing logistic information, answering questions and creating a friendly first impression of the event
+
+---
+
+# Education and Awards
+
+#### B. SC. COMPUTER SCIENCE MAJOR (CO-OP OPTION)
+
+- University of Manitoba
+
+#### DEAN’S HONOUR LIST
+
+- University of Manitoba
+
+#### 75TH ALUMNI SCHOLARSHIP
+
+- Daniel McIntyre Collegiate Institute
+
+---
