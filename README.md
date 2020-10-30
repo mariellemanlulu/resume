@@ -4,24 +4,19 @@ This document is written to discuss about the principles of technical communicat
 
 ## Table of Contents
 
-- [How to Host a Static Website : Principles of Modern Technical Communication](#how-to-host-a-static-website--principles-of-modern-technical-communication)
-  - [Table of Contents](#table-of-contents)
-  - [Audience](#audience)
-  - [Prerequisites](#prerequisites)
-  - [Instructions](#instructions)
-    - [Principles of Technical Writing](#principles-of-technical-writing)
-      - [Why static webpages?](#why-static-webpages)
-      - [Why did we use the tools that we used?](#why-did-we-use-the-tools-that-we-used)
-          - [Lightweight Markup Language](#lightweight-markup-language)
-          - [Version Control](#version-control)
-          - [Static Website Generator](#static-website-generator)
-          - [Github Pages for hosting](#github-pages-for-hosting)
-          - [Additional Notes](#additional-notes)
-  - [More Resources](#more-resources)
-  - [Authors and Acknowledgments](#authors-and-acknowledgments)
-  - [FAQs](#faqs)
-        - [1. Why is Markdown better than word processor?](#1-why-is-markdown-better-than-word-processor)
-        - [2. Why is my resume not showing up?](#2-why-is-my-resume-not-showing-up)
+- [Audience](#audience)
+- [Prerequisites](#prerequisite)
+- [Hosting a Static Website](#instructions)
+  - Step by step instruction
+  - Tools and principles used
+    - Version control using Git
+    - Static Website for hosting using GitHub Pages
+    - Static Website Generator using Jekyll
+    - Lightweight Markup Language using Markdown
+- [More Resources](#more-resources)
+  - (Include at least other resources)
+- [Authors and Acknowledgments](#authors-and-acknowledgments)
+- [FAQs](#faqs)
 
 ## Audience
 
