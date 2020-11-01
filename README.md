@@ -35,7 +35,9 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 - **Jekyll** - [Install Jekyll](https://jekyllrb.com/docs/installation/), a static website generator that works with Github.
 - **Github account** - A free account is acceptable. If you wish to make your website repository private, Github Pro is necessary. If you are a student, visit [GitHub Student Developer Pack](https://education.github.com/pack) to get one for free.
 
-## Instructions (with forking)
+## Instructions
+
+> Note: This set of steps forks a theme and lets you view and modify your site locally. Follow this [guide](https://guides.github.com/features/pages/) if you wish to make your site entirely remote.
 
 1. Choose a Jekyll theme.
    - Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
@@ -44,7 +46,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 2. Fork the repository:
    - [add gif]
 
-Now that you have a separate copy of the repository, we can now modify it to make it your own.
+> Now that you have a separate copy of the repository, we can now modify it to make it your own.
 
 3. Rename the repository.
 
@@ -58,7 +60,7 @@ Now that you have a separate copy of the repository, we can now modify it to mak
    - Go to `Settings > Github Pages`.
    - Choose the new branch as the Source and save.
 
-Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
+> Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
 
 6. View site locally.
 
@@ -116,20 +118,20 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 - Static website generator is what makes the job easy. Provide it with content (lightweight markup file) and a theme (HTML & CSS), and _viola_ it formats into a working website. Maintaining your site becomes effortless making your document in sync with the world in no time.
 
-- `Jekyll` is the generator that Github Pages provides to process static websites. There are 3 ways you can work with Jekyll: [by modifiying settings](),[forking a theme](), or [starting from scratch](). Forking a theme was done for this project.
+- `Jekyll` is the generator that Github Pages provides to process static websites. There are 3 ways you can work with Jekyll: [by modifiying settings](), [forking a theme](), or [starting from scratch](). Forking a theme was done for this project.
 
 ##### Hosting the site
 
-- After developing your site, it's now time to make it alive. Having your website hosted on the internet where anyone with a link can visit avoids duplication. Etter defines this as _single sourcing_. Having only one copy of the documentation ensures accuracy, because you are maintaining from a "single source". Moreover, you will need a web hosting provider and, generally, it is not free.
+- After developing your site, it's now time to make it alive. Having your website hosted on the internet where anyone with a link can visit avoids duplication. Etter defines this as [_single sourcing_](https://en.wikipedia.org/wiki/Single-source_publishing). Having only one copy of the documentation ensures accuracy, because you are maintaining from a "single source". Moreover, you will need a web hosting provider and, generally, it is not free.
 
 - `Github Pages`, however, is free for hosting a static site with Jekyll!
 
-##### Final Key Points (draft)
+#### Final Key Points
 
-- Single Sourcing
-- Keep documentation with source code
-- Contribution
-- Separation content and formatting
+- Avoid duplication, use **single-source publishing**.
+- Keep **documentation with source code**.
+- **Encourage contribution** by using accesible tools and version control.
+- **Separate content and formatting** for easy maintenance.
 
 ## More Resources (draft)
 
