@@ -35,27 +35,62 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 - **Jekyll** - [Install Jekyll](https://jekyllrb.com/docs/installation/), a static website generator that works with Github.
 - **Github account** - A free account is acceptable. If you wish to make your website repository private, Github Pro is necessary. If you are a student, visit [GitHub Student Developer Pack](https://education.github.com/pack) to get one for free.
 
-## Instructions (draft)
+## Instructions (with forking)
 
-1. Find a Jekyll theme [Provide a link]()
-2. Fork the theme's repository
-3. Rename the repository
-4. Clone the theme on your local
-5. Create a new branch
-6. Make the new branch as the main branch
+1. Choose a Jekyll theme.
+   - Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
+   - For this project, I used [minimal](https://github.com/pages-themes/minimal).
+   - Note: [mention plugins]
+2. Fork the repository:
+   - [add gif]
 
-   - Settings > branch > change the main branch
+Now that you have a separate copy of the repository, we can now modify it to make it your own.
 
-7. Replace content of index.md with the markdown formatted resume the you created
-8. Run `bundle exec jekyll serve` and visit your local IP address (`http://127.0.0.1:4000/`) to view locally
-9. Format as you like
-10. Stage your changes with `git add <file>`
-11. Commit your changes with `git commit -m "<commit message>"`
-12. Publish from local to remote with `git push --setupstream origin <new-branch-name>`
-13. Set up GitHub Pages environment
-    - Settings > GitHub Pages > Select your new branch > Click Save.
-14. Visit `<username>.github.io/<repository-name>` to new your new static website
-15. Add a README.md
+3. Rename the repository.
+
+   - `Settings > Repository Name`
+
+4. Add a new branch
+
+   - Go to `Settings > Branches` to make the new branch the default branch
+
+5. Host your new site with Github Pages
+   - Go to `Settings > Github Pages`.
+   - Choose the new branch as the Source and save.
+
+Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
+
+6. View site locally.
+
+   - With the command line, go to the directory where you want the repository to reside.
+     - `cd /home/user/my_project`
+   - Initialize an empty repository
+     - `git init`
+   - Clone the repository with the URL.
+     - `git clone https://github.com/<username>/<repository-name>.git`
+   - Run the local server
+     - `bundle exec jekyll serve`
+   - Visit local server address
+     - `http://127.0.0.1:4000` _Note: it maybe different from you_
+
+7. Modify site locally.
+
+   - Open the project with your IDE
+   - Replace `index.md` contents with your markdown-formatted resume contents.
+   - **Tips:**
+     - You can change the formatting and styles with `HTML` and `CSS` in `_layouts/` and `_sass/`, respectively.
+     - You can set global properties, like titles, in `_config.yml`.
+       - _More about Jekyll configuration [here](https://jekyllrb.com/docs/configuration/)._
+     - See [More Resources](#more-resources) for tutorials.
+
+8. Update site remotely.
+   - Stages files the were modified
+     - `git add <file1> <file2>`
+   - Commit your changes.
+     - `git commit -m "<your commit message>"`
+   - Push your changes:
+     - For pushing first time: ` git push --set-upstream origin <branch-name>`
+   - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
 
 ## Principles of Technical Writing
 
@@ -89,7 +124,7 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 - `Github Pages`, however, is free for hosting a static site with Jekyll!
 
-##### Final Notes (draft)
+##### Final Key Points (draft)
 
 - Single Sourcing
 - Keep documentation with source code
