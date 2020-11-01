@@ -1,36 +1,34 @@
 # How to Host a Static Website : Principles of Modern Technical Communication
 
-This document is written to discuss about the principles of technical communication and demonstrate tools that can be used for modern technical writing. Majority of the information references Andrew Etter's book, Modern Technical Writing: An Introduction to Software Documentation. Here you can find a tutorial on how to host a static website resume to showcase the principles and tools that were mentioned. Follow along to see it in action!
+This document is written to discuss about the principles of technical communication and demonstrate tools that can be used for modern technical writing. Majority of the information references Andrew Etter's book, [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). Here you can find a tutorial on how to host a static website resume to showcase the principles and tools that were mentioned. Follow along to see it in action!
 
 ## Table of Contents
 
 - [Audience](#audience)
-- [Prerequisites](#prerequisites)
-- [Hosting a Static Website](#instructions)
-  - Step by step instruction
-  - Tools and principles used
-    - Version control using Git
-    - Static Website for hosting using GitHub Pages
-    - Static Website Generator using Jekyll
-    - Lightweight Markup Language using Markdown
+- [Build Your Online Resume](#instructions)
+  - [Prerequisites](#prerequisites)
+  - [Instructions](#instructions)
+  - [Principles of Technical Writing]()
+    - [Lightweight Markup Language]()
+    - [Version Control]()
+    - [Static Website Generator]()
+    - [Hosting Your Website]()
+    - [Additional Notes]()
 - [More Resources](#more-resources)
-  - (Include at least other resources)
 - [Authors and Acknowledgments](#authors-and-acknowledgments)
 - [FAQs](#faqs)
 
 ## Audience
 
-This document is for computer science student interested in learning the principles of modern technical writing and learning how to create a static resume website. [By the end, student should acquire knowledge about the tools that can be used to make a static website and be knowledgeable about the principles of technical writing.]
+This document is for students interested in learning and applying the principles of modern technical writing mentioned in [Andrew Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by building a simple static resume website.
 
 ## Prerequisites
-
-Make sure to have all the following:
 
 - **Markdown** - Learn Markdown in minutes with this [tutorial](https://www.markdowntutorial.com/).
 - **Markdown Editor** - [Dillinger](https://dillinger.io/) is a great online markdown editor.
 - **Git Version Control** - [Install Git.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) OSX and Linux system typically have this installed by default.
 - **Jekyll** - [Install Jekyll.](https://jekyllrb.com/docs/installation/)
-- **GitHub account** - If you wish to make your website repository private, you will need a Github Pro account. If you are a student, visit [GitHub Student Developer Pack](https://education.github.com/pack) to get one for free.
+- **GitHub account** - A free account is acceptable. If you wish to make your website repository private, you will need a Github Pro account. If you are a student, visit [GitHub Student Developer Pack](https://education.github.com/pack) to get one for free.
 
 ## Instructions
 
