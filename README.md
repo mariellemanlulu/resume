@@ -20,18 +20,21 @@ This document is written to discuss about the principles of technical communicat
 
 ## Audience
 
-This document is for computer science student who are interested in learning the principles of modern technical writing and learning how to create a static resume website. By the end, student should acquire knowledge about the tools that they can use to make a static website and be knowledgeable about the principles of technical writing.
+This document is for computer science student interested in learning the principles of modern technical writing and learning how to create a static resume website. [By the end, student should acquire knowledge about the tools that can be used to make a static website and be knowledgeable about the principles of technical writing.]
+
+## Prerequisites
+
+Make sure you have all the following:
+
+- **Markdown** - Learn Markdown in minutes with this [tutorial](https://www.markdowntutorial.com/).
+- **Markdown Editor** - [Dillinger](https://dillinger.io/) is a great online markdown editor.
+- **Git Version Control** - [Install Git.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) OSX and Linux system typically have this installed by default.
+- **Jekyll** - [Install Jekyll.](https://jekyllrb.com/docs/installation/)
+- **GitHub account** - If you wish to make your website repository private, you will need a Github Pro account. If you are a student, visit [GitHub Student Developer Pack](https://education.github.com/pack) to get one for free.
 
 ## Instructions
 
 [Explain what we are doing]
-
-#### Prerequisites
-
-- Markdown
-- Git Version Control
-- Jekyll
-- GitHub account, free for students
 
 1. Find a Jekyll theme [Provide a link]()
 2. Fork the theme's repository
@@ -62,12 +65,12 @@ Static Website Resume Demo:
 
 #### Why static webpages?
 
-Documentation do not need a ton of dependencies. They should be simple, fast, portable and accessible. Static webpages are exactly that. They can be hosted almost anywhere. No extensive installation, databases and large-scale software needed to make one. As witnessed from the requirements and instructions above, very little is needed to create static website.
+Documentation do not need a ton of dependencies. They should be simple, fast, portable and accessible. Static webpages are exactly that. They can be hosted almost anywhere. No extensive installation, databases nor large-scale software needed to make one. As witnessed from the requirements and instructions above, very little is needed to create a static website.
 
 #### Why did we use the tools that we used?
 
 - Encourage contribution
-- Distribution
+- Distribution, single sourcing
 
 ##### Lightweight Markup Language
 
@@ -94,6 +97,7 @@ Documentation do not need a ton of dependencies. They should be simple, fast, po
 - [Markdown Editor that I used](https://jbt.github.io/markdown-editor/)
 - [Flavoured Markdown Cheatsheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
 - [Jekyll](https://jekyllrb.com/)
+- [Markdown Cheatsheet]().
 
 ## Authors and Acknowledgments
 
