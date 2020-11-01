@@ -36,7 +36,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 - **Jekyll** - [Install Jekyll](https://jekyllrb.com/docs/installation/), a static website generator that works with Github.
 - **Github account** - A free account is acceptable. If you wish to make your website repository private, Github Pro is necessary. If you are a student, visit [GitHub Student Developer Pack](https://education.github.com/pack) to get one for free.
 
-## Instructions
+## Instructions (draft)
 
 1. Find a Jekyll theme [Provide a link]()
 2. Fork the theme's repository
@@ -66,8 +66,6 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 #### Why did we use the tools that we used?
 
-- `Markdown`, `GitHub Pages`, `Jekyll`, `Git` are few of the many useful technical documentation tools. They are accessible to anyone and are very easy to learn.
-
 ##### Lightweight Markup Language
 
 - Using a lightweight markup language is highly recommended for technical documentation. They are designed to make the transition from content to a desired markup language, like HTML, seamless. Because the content is separated from everything else, it makes the editing process much more efficient. Unlike HTML or XML, the syntax is straightforward, clean and human readable.
@@ -92,14 +90,14 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 - `Github Pages`, however, is free for hosting a static site with Jekyll!
 
-##### Final Notes
+##### Final Notes (draft)
 
 - Single Sourcing
 - Keep documentation with source code
 - Contribution
 - Separation content and formatting
 
-## More Resources
+## More Resources (draft)
 
 - [Modern Technical Writing: An Introduction to Software Documentation by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
 - [Markdown Tutorial](https://www.markdowntutorial.com/) (no need to explain markdown)
@@ -116,7 +114,7 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
   - Prakhar Sharma (@neil3108)
 - **Minimal Theme Author:** Ben Balter (@benbalter)
 
-## FAQs
+## FAQs (draft)
 
 ##### 1. Why is Markdown better than word processor?
 
