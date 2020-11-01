@@ -79,9 +79,10 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
    - Open the project with your IDE
    - Replace `index.md` contents with your markdown-formatted resume contents.
+   - Once save, refresh local page to see changes.
    - **Tips:**
      - You can change the formatting and styles with `HTML` and `CSS` in `_layouts/` and `_sass/`, respectively.
-     - You can set global properties, like titles, in `_config.yml`.
+     - You can set global properties, e.g. title, in `_config.yml`.
        - _More about Jekyll configuration [here](https://jekyllrb.com/docs/configuration/)._
      - See [More Resources](#more-resources) for tutorials.
 
@@ -126,7 +127,7 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 - `Github Pages`, however, is free for hosting a static site with Jekyll!
 
-#### Final Key Points
+### Key Points
 
 - Avoid duplication, use **single-source publishing**.
 - Keep **documentation with source code**.

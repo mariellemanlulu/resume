@@ -79,7 +79,7 @@ Link: [https://umwics.vercel.app/](https://umwics.vercel.app/)
 
 Date: Jan. 2020
 
-Link: [https://2020.cusec.net/#/](https://2020.cusec.net/#/
+Link: [https://2020.cusec.net/#/](https://2020.cusec.net/#/)
 
 > A 3-day software engineering conference where university students across Canada network, attend workshops, hear inspiring talks and gain exposure to the Canadian tech community.
 
@@ -126,18 +126,8 @@ Link: [https://www.canadalearningcode.ca/teachercon/](https://www.canadalearning
 
 ---
 
-# Education and Awards
+# Education
 
 #### B. SC. COMPUTER SCIENCE MAJOR (CO-OP OPTION)
 
-- University of Manitoba
-
-#### DEAN’S HONOUR LIST
-
-- University of Manitoba
-
-#### 75TH ALUMNI SCHOLARSHIP
-
-- Daniel McIntyre Collegiate Institute
-
----
+University of Manitoba
