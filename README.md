@@ -24,7 +24,7 @@ This document is for computer science student interested in learning the princip
 
 ## Prerequisites
 
-Make sure you have all the following:
+Make sure to have all the following:
 
 - **Markdown** - Learn Markdown in minutes with this [tutorial](https://www.markdowntutorial.com/).
 - **Markdown Editor** - [Dillinger](https://dillinger.io/) is a great online markdown editor.
@@ -86,7 +86,15 @@ Documentation do not need a ton of dependencies. They should be simple, fast, po
 
 ##### Static Website Generator
 
-##### Github Pages for hosting
+- Static website generator is what makes the job easy. Provide it with content (lightweight markup file) and a theme (HTML & CSS).
+
+- `Jekyll` is what we use to generate our website.
+
+##### Hosting the site
+
+- After developing your site, it's now time make it alive. Hosting will allow others to visit your site on the internet. Generally, you will need a web hosting provider and it is not free.
+
+- `Github Pages`, however, is free!
 
 ##### Additional Notes
 
