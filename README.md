@@ -20,18 +20,17 @@ This document discusses about the principles of technical communication and demo
 
 ## Audience
 
-This document is for students interested in learning and applying the principles of modern technical writing mentioned in [Andrew Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by building a simple static resume website.
+This is for students interested in learning and applying the principles of modern technical writing mentioned in [Andrew Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by building a simple static resume website. No experience in Markdown or Github is assumed.
 
 # Build Your Own Static Resume Website
 
 [Add a GIF]
 
-Start by going through the [instructions](#instructions). Then, find out more about the [principles]() applied throughout. By the end, you should have a working online resume and acquire knowlegde about modern technical documentation.
+Start by going through the [instructions](#instructions). Then, find out more about the [principles]() applied throughout. By the end, you should have a working online resume and acquire knowlegde about modern technical documentation key principles and tools.
 
 ## Prerequisites
 
-- **Markdown** - Learn Markdown in minutes with this [tutorial](https://www.markdowntutorial.com/).
-- **Markdown Editor** - [Dillinger](https://dillinger.io/) is a great online markdown editor.
+- **Resume formatted in Markdown** - Here is a [tutorial](https://www.markdowntutorial.com/) to learn Markdown within minutes. [Dillinger](https://dillinger.io/) is a great online markdown editor.
 - **Git Version Control** - [Install Git.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) OSX and Linux system typically have this installed by default.
 - **Jekyll** - [Install Jekyll](https://jekyllrb.com/docs/installation/), a static website generator that works with Github.
 - **Github account** - A free account is acceptable. If you wish to make your website repository private, Github Pro is necessary. If you are a student, visit [GitHub Student Developer Pack](https://education.github.com/pack) to get one for free.
@@ -58,7 +57,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 14. Visit `<username>.github.io/<repository-name>` to new your new static website
 15. Add a README.md
 
-### Principles of Technical Writing
+## Principles of Technical Writing
 
 #### Why static webpages?
 
@@ -80,7 +79,7 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 ##### Static Website Generator
 
-- Static website generator is what makes the job easy. Provide it with content (lightweight markup file) and a theme (HTML & CSS), and _viola_ the generator will turn it into a working website. Maintaining your site becomes effortless making your document in sync with the world in no time.
+- Static website generator is what makes the job easy. Provide it with content (lightweight markup file) and a theme (HTML & CSS), and _viola_ it formats into a working website. Maintaining your site becomes effortless making your document in sync with the world in no time.
 
 - `Jekyll` is the generator that Github Pages provides to process static websites. There are 3 ways you can work with Jekyll: [by modifiying settings](),[forking a theme](), or [starting from scratch](). Forking a theme was done for this project.
 
@@ -99,12 +98,12 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 ## More Resources (draft)
 
-- [Modern Technical Writing: An Introduction to Software Documentation by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
-- [Markdown Tutorial](https://www.markdowntutorial.com/) (no need to explain markdown)
-- [Markdown Editor that I used](https://jbt.github.io/markdown-editor/)
+- [Modern Technical Writing: An Introduction to Software Documentation by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) (must have)
+- [Markdown Tutorial](https://www.markdowntutorial.com/) (no need to explain markdown) (must have)
 - [Flavoured Markdown Cheatsheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
 - [Jekyll](https://jekyllrb.com/)
 - [Markdown Cheatsheet]().
+- [Editors best picks for markdown]
 
 ## Authors and Acknowledgments
 
