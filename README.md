@@ -39,79 +39,80 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 > Note: This set of steps forks a theme and lets you view and modify your site locally. Follow this [guide](https://guides.github.com/features/pages/) if you wish to make your site entirely remote.
 
-1. Choose a Jekyll theme.
-   - Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
-   - For this project, I used [minimal](https://github.com/pages-themes/minimal).
-   - Note: [mention plugins]
-2. Fork the repository.
+**1. Choose a Jekyll theme.**
+
+- Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
+- For this project, I used [minimal](https://github.com/pages-themes/minimal).
+- Note: [mention plugins]
+  **2. Fork the repository.**
 
   <img src="./readme-gifs/fork.png" width ="50%">
 
 > Now that you have a separate copy of the repository, we can now modify it to make it your own.
 
-3. Rename the repository.
+**3. Rename the repository.**
 
-   - `Settings > Repository Name`
+- `Settings > Repository Name`
 
-      <img src="./readme-gifs/rename-repo.gif" width ="40%">
+   <img src="./readme-gifs/rename-repo.gif" width ="50%">
 
-4. Add a new branch
+**4. Add a new branch**
 
-   - Go to `Settings > Branches` to make the new branch the default branch
+- Go to `Settings > Branches` to make the new branch the default branch
 
-      <img src="./readme-gifs/create-branch.gif" width ="40%">
+   <img src="./readme-gifs/create-branch.gif" width ="40%">
 
-5. Host your new site with Github Pages
+**5. Host your new site with Github Pages**
 
-   - Go to `Settings > Github Pages`.
-   - Choose the new branch as the source and save.
+- Go to `Settings > Github Pages`.
+- Choose the new branch as the source and save.
 
-      <img src="./readme-gifs/github-page.gif" width ="50%">
+   <img src="./readme-gifs/github-page.gif" width ="60%">
 
 > Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
 
-6. View site locally.
+**6. View site locally.**
 
-   - With the command line, go to the directory where you want the repository to reside.
-     - `cd /home/user/my_project`
-   - Clone the repository with the URL.
-     - `git clone https://github.com/<username>/<repository-name>.git`
-   - Go to the repository
-     - `cd <repository-name>`
-   - Switch to the new branch
-     - `git checkout <new-branch-name>`
-   - Run the local server
-     - `bundle exec jekyll serve`
-   - Visit local server address
+- With the command line, go to the directory where you want the repository to reside.
+  - `cd /home/user/my_project`
+- Clone the repository with the URL.
+  - `git clone https://github.com/<username>/<repository-name>.git`
+- Go to the repository
+  - `cd <repository-name>`
+- Switch to the new branch
+  - `git checkout <new-branch-name>`
+- Run the local server
+  - `bundle exec jekyll serve`
+- Visit local server address
 
-     - `http://127.0.0.1:4000` _Note: it maybe different from you_
+  - `http://127.0.0.1:4000` _Note: it maybe different from you_
 
-      <img src="./readme-gifs/to-local.gif" width ="50%">
+   <img src="./readme-gifs/to-local.gif" width ="50%">
 
-7. Modify site locally.
+**7. Modify site locally.**
 
-   - Open the project with your IDE
-   - Replace `index.md` contents with your markdown-formatted resume contents.
-   - Once save, refresh local page to see changes.
-   - **Tips:**
-     - You can change the formatting and styles with `HTML` and `CSS` in `_layouts/` and `_sass/`, respectively.
-     - You can set global properties, e.g. title, in `_config.yml`.
-       - _More about Jekyll configuration [here](https://jekyllrb.com/docs/configuration/)._
-     - See [More Resources](#more-resources) for tutorials.
+- Open the project with your IDE
+- Replace `index.md` contents with your markdown-formatted resume contents.
+- Once save, refresh local page to see changes.
+- **Tips:**
+  - You can change the formatting and styles with `HTML` and `CSS` in `_layouts/` and `_sass/`, respectively.
+  - You can set global properties, e.g. title, in `_config.yml`.
+    - _More about Jekyll configuration [here](https://jekyllrb.com/docs/configuration/)._
+  - See [More Resources](#more-resources) for tutorials.
 
-8. Update site remotely.
+**8. Update site remotely.**
 
-   - Stages files the were modified
-     - `git add <file1> <file2>`
-   - Commit your changes.
-     - `git commit -m "<your commit message>"`
-   - Push your changes:
+- Stages files the were modified
+  - `git add <file1> <file2>`
+- Commit your changes.
+  - `git commit -m "<your commit message>"`
+- Push your changes:
 
-     - `git push`
+  - `git push`
 
-      <img src="./readme-gifs/push.gif" width ="50%">
+   <img src="./readme-gifs/push.gif" width ="50%">
 
-   - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
+- _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
 
 ## Principles of Technical Writing
 
