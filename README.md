@@ -62,7 +62,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 > Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
 
-![test](https://media.giphy.com/media/4D35pJtg0aiQXQKI7B/source.mp4)
+![test](https://gph.is/g/EJmkKr9)
 
 6. View site locally.
 
