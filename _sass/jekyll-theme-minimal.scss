@@ -119,8 +119,7 @@ th {
 }
 
 img {
-  max-width: 100%;
-  border-radius: 25px;
+  max-width: 80%;
 }
 
 header {
@@ -294,19 +293,39 @@ footer {
   }
 }
 
-#links ul li {
-  text-align: left;
-  margin: 0;
-  a {
-    color: gray;
+#links {
+  ul {
+    list-style-type: none;
+    margin: 5px 10px;
+    padding: 0;
+    font-size: smaller;
+  }
+  p {
+    padding: 0;
+    margin: 0;
   }
   a:hover {
-    text-decoration: underline;
+    color: grey;
+  }
+}
+
+#table-of-contents {
+  ul {
+    list-style-type: none;
+    margin: 5px 10px;
+    padding: 0;
+    font-size: smaller;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  a:hover {
+    color: grey;
   }
 }
 
 #title {
-  text-align: center;
   a {
     color: black;
   }
