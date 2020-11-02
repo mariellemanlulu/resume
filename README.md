@@ -5,15 +5,14 @@ This document discusses about the principles of technical communication and demo
 ## Table of Contents
 
 - [Audience](#audience)
-- [Build Your Online Resume](#build-your-online-resume)
+- [Build Your Own Static Resume Website](#build-your-own-static-resume-website)
   - [Prerequisites](#prerequisites)
   - [Instructions](#instructions)
   - [Principles of Technical Writing](#principles-of-technical-writing)
-    - [Lightweight Markup Language]()
-    - [Version Control]()
-    - [Static Website Generator]()
-    - [Hosting Your Website]()
-    - [Additional Notes]()
+    - [Lightweight Markup Language](#lightweight-markup-language)
+    - [Distributed Version Control](#distributed-version-control)
+    - [Static Website Generator](#static-website-generator)
+    - [Hosting the Site](#hosting-the-site)
 - [More Resources](#more-resources)
 - [Authors and Acknowledgments](#authors-and-acknowledgments)
 - [FAQs](#faqs)
@@ -117,31 +116,31 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 ## Principles of Technical Writing
 
-#### Why static webpages?
+### Why static webpages?
 
 Documentation are simple. They don't need a ton of dependencies. They should be fast, portable and accessible to anyone. Static sites are exactly that. That is why they are great for documentation. They can be hosted almost anywhere. No extensive installation, databases nor large-scale software needed to make one.
 
-#### Why did we use the tools that we used?
+### Why did we use the tools that we used?
 
-##### Lightweight Markup Language
+#### Lightweight Markup Language
 
 - Using a lightweight markup language is highly recommended for technical documentation. They are designed to make the transition from content to a desired markup language, like HTML, seamless. Because the content is separated from everything else, it makes the editing process much more efficient. Unlike HTML or XML, the syntax is straightforward, clean and human readable.
 
 - `Markdown` is the most popular lightweight markup language, hence, it is future proof. You can learn it in minutes! However, it provides limited features. Therefore, different Markdown "flavours" exists to make up for the lack of features. [Github Flavoured Markdown (GFM)](gfm) is used to write this `README.md`
 
-##### Distributed Version Control
+#### Distributed Version Control
 
 - Distributed Version Control provides many benefits when creating a documentation. It keeps track of the development history. It allows others to contribute to the same file concurrently. It provides the ability to work offline.
 
 - `Git` is the version control being used for this repository and `GitHub` is the service that we use to manage our repositories. One advantage of this is that the documentation (this `README.md`) is stored alongside with the content. Doing so encourages the documentation to stay up to date and developers are more likely to contribute.
 
-##### Static Website Generator
+#### Static Website Generator
 
 - Static website generator is what makes the job easy. Provide it with content (lightweight markup file) and a theme (HTML & CSS), and _viola_ it formats into a working website. Maintaining your site becomes effortless making your document in sync with the world in no time.
 
 - `Jekyll` is the generator that Github Pages provides to process static websites. There are 3 ways you can work with Jekyll: [by modifiying settings](), [forking a theme](), or [starting from scratch](). Forking a theme was done for this project.
 
-##### Hosting the site
+#### Hosting the Site
 
 - After developing your site, it's now time to make it alive. Having your website hosted on the internet where anyone with a link can visit avoids duplication. Etter defines this as [_single sourcing_](https://en.wikipedia.org/wiki/Single-source_publishing). Having only one copy of the documentation ensures accuracy, because you are maintaining from a "single source". Moreover, you will need a web hosting provider and, generally, it is not free.
 
