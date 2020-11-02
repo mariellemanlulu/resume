@@ -45,26 +45,27 @@ Start by going through the [instructions](#instructions). Then, find out more ab
    - Note: [mention plugins]
 2. Fork the repository.
 
-    ![Fork](/readme-gifs/fork.png)
-   
+<img src="./readme-gifs/create-branch.gif" width ="50%">
+
 > Now that you have a separate copy of the repository, we can now modify it to make it your own.
 
 3. Rename the repository.
 
    - `Settings > Repository Name`
-   
+
       <img src="./readme-gifs/rename-repo.gif" width ="40%">
 
 4. Add a new branch
 
    - Go to `Settings > Branches` to make the new branch the default branch
-   
+
       <img src="./readme-gifs/create-branch.gif" width ="40%">
 
 5. Host your new site with Github Pages
+
    - Go to `Settings > Github Pages`.
    - Choose the new branch as the source and save.
-   
+
       <img src="./readme-gifs/github-page.gif" width ="50%">
 
 > Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
@@ -82,10 +83,11 @@ Start by going through the [instructions](#instructions). Then, find out more ab
    - Run the local server
      - `bundle exec jekyll serve`
    - Visit local server address
+
      - `http://127.0.0.1:4000` _Note: it maybe different from you_
-     
+
       <img src="./readme-gifs/to-local.gif" width ="50%">
-     
+
 7. Modify site locally.
 
    - Open the project with your IDE
@@ -104,13 +106,13 @@ Start by going through the [instructions](#instructions). Then, find out more ab
    - Commit your changes.
      - `git commit -m "<your commit message>"`
    - Push your changes:
+
      - `git push`
-     
+
       <img src="./readme-gifs/push.gif" width ="50%">
-      
+
+
    - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
-   
-      
 
 ## Principles of Technical Writing
 
