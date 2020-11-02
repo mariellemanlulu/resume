@@ -43,30 +43,31 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 - Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
 - For this project, I used [minimal](https://github.com/pages-themes/minimal).
 
-**2. Fork the repository.**
+**2. Fork the theme's repository.**
 
   <img src="./readme-gifs/fork.png" width ="50%">
 
-> Now that you have a separate copy of the repository, we can now modify it to make it your own.
+> Now that you have a separate copy of the repository, modify it to make it your own.
 
 **3. Rename the repository.**
 
 - Go to `Settings > Repository Name` to rename.
 
-   <img src="./readme-gifs/rename-repo.gif" width ="50%">
+   <img src="./readme-gifs/rename-repo.gif" width ="60%">
 
 **4. Add a new branch.**
 
-- Go to `Settings > Branches` to make the new branch the default branch
-
    <img src="./readme-gifs/create-branch.gif" width ="40%">
+
+- Go to `Settings > Branches` to make the new branch the default branch
 
 **5. Host your new site with Github Pages.**
 
 - Go to `Settings > Github Pages`.
-- Choose the new branch as the source and save.
+- Choose the new branch as the source.
+- Save.
 
-   <img src="./readme-gifs/github-page.gif" width ="60%">
+   <img src="./readme-gifs/github-page.gif" width ="70%">
 
 > Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
 
@@ -76,6 +77,8 @@ Start by going through the [instructions](#instructions). Then, find out more ab
   - `cd /home/user/my_project`
 - Clone the repository with the URL.
   - `git clone https://github.com/<username>/<repository-name>.git`
+  - _Note: You can find the URL under **Code** button._
+    <img src="./readme-gifs/clone-link.gif" width ="50%">
 - Go to the repository.
   - `cd <repository-name>`
 - Switch to the new branch.
@@ -93,7 +96,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 - Open the project with your IDE.
 - Replace `index.md` contents with your markdown-formatted resume contents.
-- Once save, refresh local page to see changes.
+- Once saved, refresh local site to see changes.
 - **Tips:**
   - You can change the formatting and styles with `HTML` and `CSS` in `_layouts/` and `_sass/`, respectively.
   - You can set global properties, e.g. title, in `_config.yml`.
@@ -112,7 +115,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
    <img src="./readme-gifs/push.gif" width ="60%">
 
-- _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
+  - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
 
 ## Principles of Technical Writing
 
@@ -138,7 +141,7 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 - Static website generator is what makes the job easy. Provide it with content (lightweight markup file) and a theme (HTML & CSS), and _viola_ it formats into a working website. Maintaining your site becomes effortless making your document in sync with the world in no time.
 
-- `Jekyll` is the generator that Github Pages provides to process static websites. There are 3 ways you can work with Jekyll: [by modifiying settings](), [forking a theme](), or [starting from scratch](). Forking a theme was done for this project.
+- `Jekyll` is the generator that Github Pages provides to process static websites. There are 3 ways you can work with Jekyll: [by modifiying settings](https://guides.github.com/features/pages/), forking a theme, or [starting from scratch](https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/). Forking a theme was done for this project.
 
 #### Hosting the Site
 
@@ -165,7 +168,7 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 ## Authors and Acknowledgments
 
 - **Author:** Marielle Manlulu ([@mariellemanlulu](https://github.com/mariellemanlulu))
-- **Group members for peer editing:**
+- **Group Members for Peer Editing:**
   - Chris Ciceron ([@chrisciceron](https://github.com/chrisciceron))
   - Prakhar Sharma ([@neil3108](https://github.com/Neil3108))
 - **Minimal Theme Author:** Ben Balter ([@benbalter](https://github.com/benbalter))
