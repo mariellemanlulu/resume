@@ -74,16 +74,22 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 **6. View site locally.**
 
-- With the command line, go to the directory where you want the repository to reside: `cd /home/user/my_project`
-- Clone the repository with the URL: `git clone https://github.com/<username>/<repository-name>.git`
-- Go to the repository: `cd <repository-name>`
-- Switch to the new branch: `git checkout <new-branch-name>`
-- Run the local server: `bundle exec jekyll serve`
+- With the command line, go to the directory where you want the repository to reside.
+  - `cd /home/user/my_project`
+- Clone the repository with the URL.
+  - `git clone https://github.com/<username>/<repository-name>.git`
+- Go to the repository
+  - `cd <repository-name>`
+- Switch to the new branch
+  - `git checkout <new-branch-name>`
+- Run the local server
+  - `bundle exec jekyll serve`
 - Visit local server address
 
-  - `http://127.0.0.1:4000` _Note: it maybe different from you_
+  - `http://127.0.0.1:4000`
+  - _Note: it maybe different from you, see output for the address._
 
-   <img src="./readme-gifs/to-local.gif" width ="50%">
+   <img src="./readme-gifs/to-local.gif" width ="60%">
 
 **7. Modify site locally.**
 
@@ -106,7 +112,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
   - `git push`
 
-   <img src="./readme-gifs/push.gif" width ="50%">
+   <img src="./readme-gifs/push.gif" width ="60%">
 
 - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
 
