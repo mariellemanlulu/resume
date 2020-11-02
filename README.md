@@ -45,7 +45,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
    - Note: [mention plugins]
 2. Fork the repository.
 
-<img src="./readme-gifs/create-branch.gif" width ="50%">
+  <img src="./readme-gifs/fork.png" width ="50%">
 
 > Now that you have a separate copy of the repository, we can now modify it to make it your own.
 
@@ -110,7 +110,6 @@ Start by going through the [instructions](#instructions). Then, find out more ab
      - `git push`
 
       <img src="./readme-gifs/push.gif" width ="50%">
-
 
    - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
 
