@@ -5,10 +5,10 @@ This document discusses about the principles of technical communication and demo
 ## Table of Contents
 
 - [Audience](#audience)
-- [Build Your Online Resume](#instructions)
+- [Build Your Online Resume](#build-your-online-resume)
   - [Prerequisites](#prerequisites)
   - [Instructions](#instructions)
-  - [Principles of Technical Writing]()
+  - [Principles of Technical Writing](#principles-of-technical-writing)
     - [Lightweight Markup Language]()
     - [Version Control]()
     - [Static Website Generator]()
@@ -154,22 +154,22 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 - **Encourage contribution** by using accesible tools and version control.
 - **Separate content and formatting** for easy maintenance.
 
-## More Resources (draft)
+## More Resources
 
-- [Modern Technical Writing: An Introduction to Software Documentation by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) (must have)
-- [Markdown Tutorial](https://www.markdowntutorial.com/) (no need to explain markdown) (must have)
+- [Modern Technical Writing: An Introduction to Software Documentation by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+- [Markdown Tutorial](https://www.markdowntutorial.com/)
+- [Editors Best Picks for Markdown by Shopify](https://www.shopify.ca/partners/blog/10-of-the-best-markdown-editors)
 - [Flavoured Markdown Cheatsheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
-- [Jekyll](https://jekyllrb.com/)
-- [Markdown Cheatsheet]().
-- [Editors best picks for markdown]
+- [Jekyll Documentation](https://jekyllrb.com/docs/)
+- [Jekyll Tutorial by Mike Dane](https://www.mikedane.com/static-site-generators/jekyll/)
 
 ## Authors and Acknowledgments
 
-- **Author:** Marielle Manlulu (@mariellemanlulu)
+- **Author:** Marielle Manlulu ([@mariellemanlulu](https://github.com/mariellemanlulu))
 - **Group members for peer editing:**
-  - Chris Ciceron (@chrisciceron)
-  - Prakhar Sharma (@neil3108)
-- **Minimal Theme Author:** Ben Balter (@benbalter)
+  - Chris Ciceron ([@chrisciceron](https://github.com/chrisciceron))
+  - Prakhar Sharma ([@neil3108](https://github.com/Neil3108))
+- **Minimal Theme Author:** Ben Balter ([@benbalter](https://github.com/benbalter))
 
 ## FAQs
 
