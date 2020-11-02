@@ -24,7 +24,7 @@ This is for students interested in learning and applying the principles of moder
 
 # Build Your Own Static Resume Website
 
-[Add a GIF]
+![Site Demo](./readme-gifs/site-demo.gif)
 
 Start by going through the [instructions](#instructions). Then, find out more about the [principles]() applied throughout. By the end, you should have a working online resume and acquire knowlegde about modern technical documentation key principles and tools.
 
@@ -43,26 +43,31 @@ Start by going through the [instructions](#instructions). Then, find out more ab
    - Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
    - For this project, I used [minimal](https://github.com/pages-themes/minimal).
    - Note: [mention plugins]
-2. Fork the repository:
-   - [add gif]
+2. Fork the repository.
 
+    ![Fork](/readme-gifs/fork.png)
+   
 > Now that you have a separate copy of the repository, we can now modify it to make it your own.
 
 3. Rename the repository.
 
    - `Settings > Repository Name`
+   
+      <img src="./readme-gifs/rename-repo.gif" width ="40%">
 
 4. Add a new branch
 
    - Go to `Settings > Branches` to make the new branch the default branch
+   
+      <img src="./readme-gifs/create-branch.gif" width ="40%">
 
 5. Host your new site with Github Pages
    - Go to `Settings > Github Pages`.
    - Choose the new branch as the source and save.
+   
+      <img src="./readme-gifs/github-page.gif" width ="50%">
 
 > Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
-
-![sfsdf](./assets/img/clone-link.gif){:height="100px" width="100px"}
 
 6. View site locally.
 
@@ -78,7 +83,9 @@ Start by going through the [instructions](#instructions). Then, find out more ab
      - `bundle exec jekyll serve`
    - Visit local server address
      - `http://127.0.0.1:4000` _Note: it maybe different from you_
-
+     
+      <img src="./readme-gifs/to-local.gif" width ="50%">
+     
 7. Modify site locally.
 
    - Open the project with your IDE
@@ -91,13 +98,19 @@ Start by going through the [instructions](#instructions). Then, find out more ab
      - See [More Resources](#more-resources) for tutorials.
 
 8. Update site remotely.
+
    - Stages files the were modified
      - `git add <file1> <file2>`
    - Commit your changes.
      - `git commit -m "<your commit message>"`
    - Push your changes:
      - `git push`
+     
+      <img src="./readme-gifs/push.gif" width ="50%">
+      
    - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
+   
+      
 
 ## Principles of Technical Writing
 
