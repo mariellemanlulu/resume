@@ -44,7 +44,8 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 - Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
 - For this project, I used [minimal](https://github.com/pages-themes/minimal).
 - Note: [mention plugins]
-  **2. Fork the repository.**
+
+**2. Fork the repository.**
 
   <img src="./readme-gifs/fork.png" width ="50%">
 
@@ -52,7 +53,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 **3. Rename the repository.**
 
-- `Settings > Repository Name`
+- Go to `Settings > Repository Name` to rename.
 
    <img src="./readme-gifs/rename-repo.gif" width ="50%">
 
@@ -73,16 +74,11 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 **6. View site locally.**
 
-- With the command line, go to the directory where you want the repository to reside.
-  - `cd /home/user/my_project`
-- Clone the repository with the URL.
-  - `git clone https://github.com/<username>/<repository-name>.git`
-- Go to the repository
-  - `cd <repository-name>`
-- Switch to the new branch
-  - `git checkout <new-branch-name>`
-- Run the local server
-  - `bundle exec jekyll serve`
+- With the command line, go to the directory where you want the repository to reside: `cd /home/user/my_project`
+- Clone the repository with the URL: `git clone https://github.com/<username>/<repository-name>.git`
+- Go to the repository: `cd <repository-name>`
+- Switch to the new branch: `git checkout <new-branch-name>`
+- Run the local server: `bundle exec jekyll serve`
 - Visit local server address
 
   - `http://127.0.0.1:4000` _Note: it maybe different from you_
