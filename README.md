@@ -43,7 +43,6 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 - Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
 - For this project, I used [minimal](https://github.com/pages-themes/minimal).
-- Note: [mention plugins]
 
 **2. Fork the repository.**
 
@@ -57,13 +56,13 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
    <img src="./readme-gifs/rename-repo.gif" width ="50%">
 
-**4. Add a new branch**
+**4. Add a new branch.**
 
 - Go to `Settings > Branches` to make the new branch the default branch
 
    <img src="./readme-gifs/create-branch.gif" width ="40%">
 
-**5. Host your new site with Github Pages**
+**5. Host your new site with Github Pages.**
 
 - Go to `Settings > Github Pages`.
 - Choose the new branch as the source and save.
@@ -78,22 +77,22 @@ Start by going through the [instructions](#instructions). Then, find out more ab
   - `cd /home/user/my_project`
 - Clone the repository with the URL.
   - `git clone https://github.com/<username>/<repository-name>.git`
-- Go to the repository
+- Go to the repository.
   - `cd <repository-name>`
-- Switch to the new branch
+- Switch to the new branch.
   - `git checkout <new-branch-name>`
-- Run the local server
+- Run the local server.
   - `bundle exec jekyll serve`
-- Visit local server address
+- Visit local server address.
 
   - `http://127.0.0.1:4000`
-  - _Note: it maybe different from you, see output for the address._
+  - _Note: it maybe different from you, see command line output for the address._
 
    <img src="./readme-gifs/to-local.gif" width ="60%">
 
 **7. Modify site locally.**
 
-- Open the project with your IDE
+- Open the project with your IDE.
 - Replace `index.md` contents with your markdown-formatted resume contents.
 - Once save, refresh local page to see changes.
 - **Tips:**
@@ -104,11 +103,11 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 **8. Update site remotely.**
 
-- Stages files the were modified
+- Stage files that were modified.
   - `git add <file1> <file2>`
 - Commit your changes.
   - `git commit -m "<your commit message>"`
-- Push your changes:
+- Push your changes.
 
   - `git push`
 
@@ -172,12 +171,17 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
   - Prakhar Sharma (@neil3108)
 - **Minimal Theme Author:** Ben Balter (@benbalter)
 
-## FAQs (draft)
+## FAQs
 
-##### 1. Why is Markdown better than word processor?
-
-> Answer here
-
-##### 2. Why is my resume not showing up?
+#### 1. Why is Markdown better than word processor?
 
 > Answer here
+
+#### 2. Why is my Jekyll template with plugins not working?
+
+- Some template uses plugins that are not supported by GitHub Pages. From [Jekyll's documentation](https://jekyllrb.com/docs/plugins/):
+
+  > GitHub Pages is powered by Jekyll, however all Pages sites are generated using the --safe option to disable custom plugins for security reasons. Unfortunately, this means your plugins won’t work if you’re deploying to GitHub Pages.
+
+- A workaround from the same documentation:
+  > You can still use GitHub Pages to publish your site, but you’ll need to convert the site locally and push the generated static files to your GitHub repository instead of the Jekyll source files.
