@@ -58,18 +58,22 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 5. Host your new site with Github Pages
    - Go to `Settings > Github Pages`.
-   - Choose the new branch as the Source and save.
+   - Choose the new branch as the source and save.
 
 > Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
+
+![test](assets/img/gihphy.gif)
 
 6. View site locally.
 
    - With the command line, go to the directory where you want the repository to reside.
      - `cd /home/user/my_project`
-   - Initialize an empty repository
-     - `git init`
    - Clone the repository with the URL.
      - `git clone https://github.com/<username>/<repository-name>.git`
+   - Go to the repository
+     - `cd <repository-name>`
+   - Switch to the new branch
+     - `git checkout <new-branch-name>`
    - Run the local server
      - `bundle exec jekyll serve`
    - Visit local server address
@@ -92,7 +96,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
    - Commit your changes.
      - `git commit -m "<your commit message>"`
    - Push your changes:
-     - For pushing first time: ` git push --set-upstream origin <branch-name>`
+     - `git push`
    - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
 
 ## Principles of Technical Writing
