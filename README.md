@@ -76,9 +76,12 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 - With the command line, go to the directory where you want the repository to reside.
   - `cd /home/user/my_project`
 - Clone the repository with the URL.
+
   - `git clone https://github.com/<username>/<repository-name>.git`
-  - _Note: You can find the URL under **Code** button._
+  - _Note: You can find the URL under **Code**._
+
     <img src="./readme-gifs/clone-link.gif" width ="50%">
+
 - Go to the repository.
   - `cd <repository-name>`
 - Switch to the new branch.
@@ -112,10 +115,9 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 - Push your changes.
 
   - `git push`
+  - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
 
    <img src="./readme-gifs/push.gif" width ="60%">
-
-  - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
 
 ## Principles of Technical Writing
 
