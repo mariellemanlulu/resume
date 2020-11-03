@@ -177,9 +177,11 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 ## FAQs
 
-#### 1. Why is Markdown better than word processor?
+#### 1. Why is Markdown better than word processor for technical documentation?
 
-> Answer here
+> Using a lightweight markup language, like Markdown, is better because you can use it to make a static website. Unlike word processors, its contents are made with plain text and few syntaxes for formatting, which makes it compatible with the web. The formatting is done separately from the content, usually with HTML and CSS.
+
+> You can create markdown documents anywhere with Markdown editors, while word can only be made using a specific software, e.g. .docx files in Microsoft Word. Because it is plain text, it is superfast because not much processing behind the scene is required to produce a document. If you learn Markdown, or any lightweight processing language, you open up a lot of flexibility with formatting.
 
 #### 2. Why is my Jekyll template with plugins not working?
 
