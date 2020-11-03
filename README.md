@@ -1,14 +1,19 @@
 # Learn the Principles of Technical Documentation as You Build Your Own Static Resume Website
 
-This document discusses about the principles of technical communication and demonstrate tools that are used for modern technical writing. Majority of the information references Andrew Etter's book, [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). Here you can find a tutorial on how to host a static website resume that showcases the principles and tools of technical documentation. Follow along to see it in action!
+The following is a demo of a static website resume made with Markdown, Github Pages and Jekyll:
+
+![Site Demo](./readme-gifs/site-demo.gif)
+
+This document discusses the principles and tools of technical communication. Majority of the information references Andrew Etter's book, _[Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)_. Here you can find a tutorial on how to host a static website resume that showcases the principles and tools of technical documentation. Follow along to see it in action!
+
+_**Who is it for?**_ -- This is written for students interested in _learning_ and _applying_ the principles of modern technical commmunicaion. No experience in Markdown or Github is assumed.
 
 ## Table of Contents
 
-- [Audience](#audience)
-- [Build Your Own Static Resume Website](#build-your-own-static-resume-website)
+- [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Instructions](#instructions)
-  - [Principles of Technical Writing](#principles-of-technical-writing)
+  - [Principles of Technical Documentation](#principles-of-technical-documentation)
     - [Lightweight Markup Language](#lightweight-markup-language)
     - [Distributed Version Control](#distributed-version-control)
     - [Static Website Generator](#static-website-generator)
@@ -17,15 +22,9 @@ This document discusses about the principles of technical communication and demo
 - [Authors and Acknowledgments](#authors-and-acknowledgments)
 - [FAQs](#faqs)
 
-## Audience
+# Getting Started
 
-This is for students interested in learning and applying the principles of modern technical writing mentioned in [Andrew Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by building a simple static resume website. No experience in Markdown or Github is assumed.
-
-# Build Your Own Static Resume Website
-
-![Site Demo](./readme-gifs/site-demo.gif)
-
-Start by going through the [instructions](#instructions). Then, find out more about the [principles]() applied throughout. By the end, you should have a working online resume and acquire knowlegde about modern technical documentation key principles and tools.
+Start by going through the [instructions](#instructions). Then, find out more about the [principles](#principles-of-technical-documentation) applied throughout. By the end, you should have a working online resume and acquire knowlegde about modern technical documentation key principles and tools.
 
 ## Prerequisites
 
@@ -36,49 +35,47 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 ## Instructions
 
-> Note: This set of steps forks a theme and lets you view and modify your site locally. Follow this [guide](https://guides.github.com/features/pages/) if you wish to make your site entirely remote.
+> Note: The following is a set of steps that forks a theme and lets you view and modify your site locally. If you wish to make your site entirely remote, follow [this guide](https://guides.github.com/features/pages/) instead.
 
-**1. Choose a Jekyll theme.**
+**2. Fork a theme repository.**
 
-- Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
-- For this project, I used [minimal](https://github.com/pages-themes/minimal).
+- Go to a Jekyll theme repository.
 
-**2. Fork the theme's repository.**
+  - Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
+    - For this project, I used [minimal](https://github.com/pages-themes/minimal).
+
+- Click the button shown bellow:
 
   <img src="./readme-gifs/fork.png" width ="50%">
 
-> Now that you have a separate copy of the repository, modify it to make it your own.
+**3. Modify the project to make it your own.**
 
-**3. Rename the repository.**
+- Go to `Settings > Repository Name` to rename the project.
 
-- Go to `Settings > Repository Name` to rename.
+- Create a new branch.
 
-   <img src="./readme-gifs/rename-repo.gif" width ="60%">
-
-**4. Add a new branch.**
+  _See animated GIF on how to do it._
 
    <img src="./readme-gifs/create-branch.gif" width ="40%">
 
-- Go to `Settings > Branches` to make the new branch the default branch
+- Go to `Settings > Branches` to make the new branch the default branch.
 
 **5. Host your new site with Github Pages.**
 
 - Go to `Settings > Github Pages`.
-- Choose the new branch as the source.
+- Make the new branch as the source branch.
 - Save.
 
-   <img src="./readme-gifs/github-page.gif" width ="70%">
-
-> Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally.
+> Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally!
 
 **6. View site locally.**
 
-- With the command line, go to the directory where you want the repository to reside.
+- With the command line, go to the directory where you want the repository to reside. For example:
   - `cd /home/user/my_project`
-- Clone the repository with the URL.
+- Clone the repository.
 
   - `git clone https://github.com/<username>/<repository-name>.git`
-  - _Note: You can find the URL under **Code**._
+  - _See animated GIF on how find the URL._
 
     <img src="./readme-gifs/clone-link.gif" width ="50%">
 
@@ -88,10 +85,9 @@ Start by going through the [instructions](#instructions). Then, find out more ab
   - `git checkout <new-branch-name>`
 - Run the local server.
   - `bundle exec jekyll serve`
-- Visit local server address.
+- Visit `localhost:4000` in your browser to preview the theme.
 
-  - `http://127.0.0.1:4000`
-  - _Note: it maybe different from you, see command line output for the address._
+  _Refer to the animated GIF below to see the command line instructions visually._
 
    <img src="./readme-gifs/to-local.gif" width ="60%">
 
@@ -115,15 +111,18 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 - Push your changes.
 
   - `git push`
-  - _More information about git commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)._
 
-   <img src="./readme-gifs/push.gif" width ="60%">
+  _Refer to the animated gif below to see command line instructions._
 
-## Principles of Technical Writing
+  <img src="./readme-gifs/push.gif" width ="60%">
+
+> If you have your static website opened, refresh the page to see your changes. _Note: You may have to wait for few minutes to see it._
+
+## Principles of Technical Documention
 
 ### Why static webpages?
 
-Documentation are simple. They don't need a ton of dependencies. They should be fast, portable and accessible to anyone. Static sites are exactly that. That is why they are great for documentation. They can be hosted almost anywhere. No extensive installation, databases nor large-scale software needed to make one.
+Documentation should be simple, fast, portable and accessible to anyone. They schouldn't need a ton of dependencies. Static sites are exactly that. That is why they are great for documentation. They can be hosted almost anywhere. No extensive installation, databases nor large-scale software needed to make one.
 
 ### Why did we use the tools that we used?
 
@@ -170,7 +169,7 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 ## Authors and Acknowledgments
 
 - **Author:** Marielle Manlulu ([@mariellemanlulu](https://github.com/mariellemanlulu))
-- **Group Members for Peer Editing:**
+- **Group Members:**
   - Chris Ciceron ([@chrisciceron](https://github.com/chrisciceron))
   - Prakhar Sharma ([@neil3108](https://github.com/Neil3108))
 - **Minimal Theme Author:** Ben Balter ([@benbalter](https://github.com/benbalter))
@@ -179,7 +178,7 @@ Documentation are simple. They don't need a ton of dependencies. They should be 
 
 #### 1. Why is Markdown better than word processor for technical documentation?
 
-- [shorten this] Unlike word processors, its contents are made with plain text and few syntaxes for formatting, which makes it compatible with the web. Furthermore, the formatting is done separately from the content, usually with HTML and CSS. This allows modification to be easy and simple. You can create Markdown documents anywhere with Markdown editors, while word can only be made using a specific software, e.g. .docx documents with Microsoft Word. Because it is plain text, it is superfast. Minimal processing behind the scene is required to produce a document. If you learn Markdown, or any lightweight processing language, you open up a lot of flexibility with formatting.
+- Its contents are made with plain text which makes it _fast_ and _compatible with static websites_. As discussed [above](#why-static-webpages), static websites are great for documentation. Furthermore, it's contents and formatting are separate, which opens up a lot of flexibility when modifiying your documentation.
 
 #### 2. Why is my Jekyll template with plugins not working?
 
