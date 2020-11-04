@@ -1,10 +1,10 @@
 # Learn the Principles of Technical Documentation as You Build Your Own Static Resume Website
 
-The following is a demo of a static website resume made with Markdown, Github Pages and Jekyll:
+The following is a demo of a static website resume made with _Markdown_, _Github Pages_ and _Jekyll_:
 
 ![Site Demo](./readme-gifs/site-demo.gif)
 
-This document discusses the principles and tools of technical communication. Majority of the information references Andrew Etter's book, _[Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)_. Here you can find a tutorial on how to host a static website resume that showcases the principles and tools of technical documentation. Follow along to see it in action!
+This document references Andrew Etter's book, _[Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)_. Here you can find a tutorial on how to host a static website resume that showcases the principles and tools of technical documentation. Follow along to see it in action!
 
 _**Who is it for?**_ -- This is written for students interested in _learning_ and _applying_ the principles of modern technical commmunicaion. No experience in Markdown or Github is assumed.
 
@@ -24,7 +24,7 @@ _**Who is it for?**_ -- This is written for students interested in _learning_ an
 
 # Getting Started
 
-Start by going through the [instructions](#instructions). Then, find out more about the [principles](#principles-of-technical-documentation) applied throughout. By the end, you should have a working online resume and acquire knowlegde about modern technical documentation key principles and tools.
+Start by going through the [instructions](#instructions). Then, find out more about the [principles](#principles-of-technical-documentation) applied throughout. By the end, you should have a working online resume and have acquire knowlegde about modern technical documentation key principles and tools.
 
 ## Prerequisites
 
@@ -37,18 +37,17 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 > Note: The following is a set of steps that forks a theme and lets you view and modify your site locally. If you wish to make your site entirely remote, follow [this guide](https://guides.github.com/features/pages/) instead.
 
-**2. Fork a theme repository.**
+**1. Fork a theme repository.**
 
 - Go to a Jekyll theme repository.
 
   - Visit this [gallery](https://github.com/topics/jekyll-theme) for a list of Jekyll themes.
-    - For this project, I used [minimal](https://github.com/pages-themes/minimal).
 
 - Click the button shown bellow:
 
   <img src="./readme-gifs/fork.png" width ="50%">
 
-**3. Modify the project to make it your own.**
+**2. Modify the project to make it your own.**
 
 - Go to `Settings > Repository Name` to rename the project.
 
@@ -116,37 +115,37 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
   <img src="./readme-gifs/push.gif" width ="60%">
 
-> If you have your static website opened, refresh the page to see your changes. _Note: You may have to wait for few minutes to see it._
+> If you have your static website opened, refresh the page to see your changes. _Note: You may have to wait for a few minutes._
 
 ## Principles of Technical Documention
 
 ### Why static webpages?
 
-Documentation should be simple, fast, portable and accessible to anyone. They schouldn't need a ton of dependencies. Static sites are exactly that. That is why they are great for documentation. They can be hosted almost anywhere. No extensive installation, databases nor large-scale software needed to make one.
+Documentation should be simple, fast, portable and accessible to anyone. It shouldn't need a ton of dependencies. Static sites are exactly that. That is why they are great for documentation. They can be hosted almost anywhere. No extensive installation, databases nor large-scale software needed to make one.
 
 ### Why did we use the tools that we used?
 
 #### Lightweight Markup Language
 
-- Using a lightweight markup language is highly recommended for technical documentation. They are designed to make the transition from content to a desired markup language, like HTML, seamless. Because the content is separated from everything else, it makes the editing process much more efficient. Unlike HTML or XML, the syntax is straightforward, clean and human readable.
+- Lightweight markup language are designed to make the transition from content to a desired markup language, like HTML, seamless. Because the content is separated from everything else, it makes the editing process much more efficient. Unlike HTML or XML, the syntax is straightforward, clean and human readable.
 
-- `Markdown` is the most popular lightweight markup language, hence, it is future proof. You can learn it in minutes! However, it provides limited features. Therefore, different Markdown "flavours" exists to make up for the lack of features. [Github Flavoured Markdown (GFM)](gfm) is used to write this `README.md`
+- `Markdown` is the most popular lightweight markup language, hence, it is future proof. You can learn it in minutes! However, it provides limited features. Therefore, different Markdown "flavours" exists to make up for the lack of features. [Github Flavoured Markdown (GFM)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is used to write this `README.md`
 
 #### Distributed Version Control
 
-- Distributed Version Control provides many benefits when creating a documentation. It keeps track of the development history. It allows others to contribute to the same file concurrently. It provides the ability to work offline.
+- Distributed version control provides many benefits when creating a documentation. It keeps track of the development history and allows others to contribute to the same file concurrently. It also provides the ability to work offline.
 
 - `Git` is the version control being used for this repository and `GitHub` is the service that we use to manage our repositories. One advantage of this is that the documentation (this `README.md`) is stored alongside with the content. Doing so encourages the documentation to stay up to date and developers are more likely to contribute.
 
 #### Static Website Generator
 
-- Static website generator is what makes the job easy. Provide it with content (lightweight markup file) and a theme (HTML & CSS), and _viola_ it formats into a working website. Maintaining your site becomes effortless making your document in sync with the world in no time.
+- Static website generator is what makes the job easy. Provide it with content (lightweight markup file) and a theme (HTML & CSS), and _voila_ it formats into a working website. Maintenance becomes effortless making your document in sync with the world in no time.
 
 - `Jekyll` is the generator that Github Pages provides to process static websites. There are 3 ways you can work with Jekyll: [by modifiying settings](https://guides.github.com/features/pages/), forking a theme, or [starting from scratch](https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/). Forking a theme was done for this project.
 
 #### Hosting the Site
 
-- After developing your site, it's now time to make it alive. Having your website hosted on the internet where anyone with a link can visit avoids duplication. Etter defines this as [_single sourcing_](https://en.wikipedia.org/wiki/Single-source_publishing). Having only one copy of the documentation ensures accuracy, because you are maintaining from a "single source". Moreover, you will need a web hosting provider and, generally, it is not free.
+- Having your website hosted on the internet where anyone with a link can visit avoids duplication. Etter defines this as [_single sourcing_](https://en.wikipedia.org/wiki/Single-source_publishing). Having only one copy of the documentation ensures accuracy, because you are maintaining from a "single source". Moreover, you will need a web hosting provider and, generally, it is not free.
 
 - `Github Pages`, however, is free for hosting a static site with Jekyll!
 
@@ -172,7 +171,7 @@ Documentation should be simple, fast, portable and accessible to anyone. They sc
 - **Group Members:**
   - Chris Ciceron ([@chrisciceron](https://github.com/chrisciceron))
   - Prakhar Sharma ([@neil3108](https://github.com/Neil3108))
-- **Minimal Theme Author:** Ben Balter ([@benbalter](https://github.com/benbalter))
+- **Minimal Theme Author:** Steve Smith ([@orderedlist](https://github.com/orderedlist))
 
 ## FAQs
 
@@ -182,9 +181,5 @@ Documentation should be simple, fast, portable and accessible to anyone. They sc
 
 #### 2. Why is my Jekyll template with plugins not working?
 
-- Some template uses plugins that are not supported by GitHub Pages. From [Jekyll's documentation](https://jekyllrb.com/docs/plugins/):
-
-  > GitHub Pages is powered by Jekyll, however all Pages sites are generated using the --safe option to disable custom plugins for security reasons. Unfortunately, this means your plugins won’t work if you’re deploying to GitHub Pages.
-
-- A workaround from the same documentation:
+- Some template uses plugins that are not supported by GitHub Pages. A workaround from [Jekyll documentation](https://jekyllrb.com/docs/plugins/) states:
   > You can still use GitHub Pages to publish your site, but you’ll need to convert the site locally and push the generated static files to your GitHub repository instead of the Jekyll source files.
