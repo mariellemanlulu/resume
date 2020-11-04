@@ -121,7 +121,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 ### Why static webpages?
 
-Documentation should be simple, fast, portable and accessible to anyone. It shouldn't need a ton of dependencies. Static sites are exactly that. That is why they are great for documentation. They can be hosted almost anywhere. No extensive installation, databases nor large-scale software needed to make one.
+Documentation shouldn't need a ton of dependencies. It should be simple, fast, portable and accessible to anyone. Static sites are exactly that. That is why they are great for documentation. They can be hosted almost anywhere. No extensive installation, databases nor large-scale software needed to make one.
 
 ### Why did we use the tools that we used?
 
