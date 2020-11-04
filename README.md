@@ -117,7 +117,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 > If you have your static website opened, refresh the page to see your changes. _Note: You may have to wait for a few minutes._
 
-## Principles of Technical Documention
+## Principles of Technical Documentation
 
 ### Why static webpages?
 
