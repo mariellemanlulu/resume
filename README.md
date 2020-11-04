@@ -24,7 +24,7 @@ _**Who is it for?**_ -- This is written for students interested in _learning_ an
 
 # Getting Started
 
-Start by going through the [instructions](#instructions). Then, find out more about the [principles](#principles-of-technical-documentation) applied throughout. By the end, you should have a working online resume and have acquire knowlegde about modern technical documentation key principles and tools.
+Start by going through the [instructions](#instructions). Then, find out more about the [principles](#principles-of-technical-documentation) applied throughout. By the end, you should have a working online resume and have acquired knowlegde about modern technical documentation key principles and tools.
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 - Go to `Settings > Branches` to make the new branch the default branch.
 
-**5. Host your new site with Github Pages.**
+**3. Host your new site with Github Pages.**
 
 - Go to `Settings > Github Pages`.
 - Make the new branch as the source branch.
@@ -67,7 +67,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
 > Your static site is now hosted on `[your-user-name].github.io/[repository-name]/`. It's now time to modify the site locally!
 
-**6. View site locally.**
+**4. View site locally.**
 
 - With the command line, go to the directory where you want the repository to reside. For example:
   - `cd /home/user/my_project`
@@ -90,7 +90,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
 
    <img src="./readme-gifs/to-local.gif" width ="60%">
 
-**7. Modify site locally.**
+**5. Modify site locally.**
 
 - Open the project with your IDE.
 - Replace `index.md` contents with your markdown-formatted resume contents.
@@ -101,7 +101,7 @@ Start by going through the [instructions](#instructions). Then, find out more ab
     - _More about Jekyll configuration [here](https://jekyllrb.com/docs/configuration/)._
   - See [More Resources](#more-resources) for tutorials.
 
-**8. Update site remotely.**
+**6. Update site remotely.**
 
 - Stage files that were modified.
   - `git add <file1> <file2>`
